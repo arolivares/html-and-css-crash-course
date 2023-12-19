@@ -1,3 +1,8 @@
+/*body,ul,h1,h2#{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
 h1{
     color: orange;
     background-color: slategray;
@@ -13,15 +18,124 @@ p{
     letter-spacing: 3px;
     column-count: 2;
     column-gap: 60px;
+    font-size: 10px;
 }
+header{
+    background color: #F63232;
+    padding: 20px 0;
+    text-align: center;
+    positon: fixed;
+    width: 100%;
+    top: 0;
+    Left: 0;
+    z-index: 1;
+}
+header h1{
+    color: white;
+    border: 8px solid white;
+    display: inline-black;
+    padding: 6px 12 px;
+    border-radius: 36px;
+}
+.banner{
+    position: releative;
+}
+.banner img{
+    max-width: 100%;
+}
+.banner .welcome{
+    background: #FE0614;
+    color: white;
+    padding: 30px;
+    font-size: 60px;
+    position: absolute;
+    left: 0;
+    top: 30%;
+}
+.bammer .welcome span{
+    font-size: 1.4em;
+}
+h1{
+    color: orange;
+    background color: slategrey;
+    font: 20px;
+    text-decoration: underline;
+    font-family: arial, Helvetico, sans-serif;
+    text-align: center;
+}
+p{
+    color: slategrey;
+    text-align: right;
+    line-height: 30px;
+    letter-spacing: 3px;
+    column-count: 2;
+    column-gap: 60px
+
 ul{
-   /* border-width: 4px;
+    border-width: 4px;
     border-style: solid;
     border-color: crimson;
-    border: 4px solid crimson;*/
+    border: 4px solid crimson;
     border-bottom: 4px solid crimson;
     border-left: 8px dashed crimson;
 }
 li{
     list-style-type: none;
+}   
+span{
+    display: inline-black;
+    margin: 20px;
+    padding: 20px;
+}
+div {
+    display: inline;
+    border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
+}
+p.error{
+    color-red;
+}
+p.success{
+    color:green;
+}
+p.success.feedback{
+    border: 1px dashed;
+}
+#content{
+    background-color: #ebebeb;
+    padding: 20px;
+}
+div.error{
+    color: rgb(128,0,0)
+}
+a[href"=" index.html] {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a[href"=" .com] 
+{
+    color: white;
+    background: red;
+    border: 2px solid blue;
+}
+
+*/
+div{
+    color:lightcoral;
+    border: 1px solid gray;
+    margin: 40px;
+    color: crimson;
+
+}
+div p{
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
+p{
+    color: orange;
 }
